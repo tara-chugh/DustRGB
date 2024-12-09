@@ -1,3 +1,7 @@
+# Dust RGB Satellite Image Viewer
+## Executive Summary
+Satellites capture images at multiple wavelengths of light, which helps identify different particles in Earth’s atmosphere because they reflect light differently. However, detecting dust plumes in satellite images is challenging since fog, dust, and clouds often appear in similar colors. Scientists overcome this by creating “Dust RGB” composite images that combine data from multiple wavelengths, making it easier to distinguish these atmospheric features by their unique colors. Currently, interpreting these images requires specialized meteorologists to analyze them manually. My project automates this process by using color-matching techniques that mimic human color perception to classify Dust RGB image pixels into distinct atmospheric conditions. Users can specify a region and time, view the satellite imagery, and identify dust conditions by clicking on pixels, with real-time classifications provided. While the tool's results match manual interpretations, further validation by meteorologists is needed to improve its accuracy. This project enhances accessibility to atmospheric analysis and opens possibilities for integrating additional climate data and expert feedback to refine the tool.
+
 # Instructions for running the code: 
 ## Make the 3D L*a*b* color space plot
 Run the LAB_3d_Plot.py file (with 'python3 LAB_3d_Plot.py' in the command line). It will take a moment for the plot to be generated. The plot will open as an HTML file and should open in your browser.
