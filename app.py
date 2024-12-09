@@ -66,7 +66,7 @@ class ImageViewer(QMainWindow):
         self.password_input = QLineEdit("Qdxy1TxR14")
         self.password_input.setEchoMode(
             QLineEdit.Password
-        )  # Hide the password so it's not in plain texxt
+        )  # Hide the password so it's not in plain text
 
         # Button to get image from the API
         self.fetch_button = QPushButton("Fetch Image")
