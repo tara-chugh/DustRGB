@@ -17,4 +17,5 @@ Run the app.py file (with 'python3 app.py' in the command line). It should open 
 
 The free Meteomatics API that I set up is a 2-week trial, so it expires on Dec 18. After this, the API credentials text box would need to be updated.
 
+Here's a GIF of what the application looks like when it's up and running!
 ![ezgif-7-78edfdda95](https://github.com/user-attachments/assets/ead7b0ad-0ef9-49c5-870e-5ecb9be31ae9)
